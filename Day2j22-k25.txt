@@ -332,24 +332,25 @@ not PEOPLESOFT.COM: 10.0.128.0/18
 Ex.5.8: Compute and Configure  TELUS.COM
 call center with 377 Agents,Tls,QAs,Pm. using
 10.0.0.0/8:
-Convert 
-Subract: 
-Ipasok: 
-TELUS.COM
-1st: 
-broadcast:
-TELUS.COM
+Convert: 377 Agents,Tls,QAs,Pm = 9b
+Subract: /32 - /9b = /23 (3rd,2i)
+Ipasok: "iPasok 2i sa 3rd Octet"x2
+TELUS.COM: 10.0.2.0/23
+1st: 10.0.2.1
+broadcast: 10.0.3.255
+TELUS.COM: 10.0.4.0/23
 
 Ex.5.8: Compute and Configure  trustwave.COM
 call center with 1550 Agents,Tls,QAs,Pm. using
 10.0.0.0/8:
-Convert 
-Subract: 
-Ipasok: 
-trustwave.COM
-1st: 
-broadcast:
-trustwave.COM
+Convert: 1550 Agents,Tls,QAs,Pm = 11b
+Subract: /32 - /11b = /21 (3rd,8i)
+Ipasok: "iPasok 8i sa 3rd Octer"x2
+trustwave.COM: 10.0.8.0/21
+1st: 10.0.8.1
+broadcast: 10.0.15.255
+trustwave.COM: 10.0.16.0/21
+
 
 
 
