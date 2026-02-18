@@ -8,7 +8,7 @@ cisco: show ip route
 
 3.1.a Routing protocol code: exclusive on Cisco,Juniper,Fortinet,Palo Alto
 Mr.Bodds = Mpls, Rip, Bgp, Ospf, D(eigrp),Default, StaticRouting
-admin distances:
+admin distances: 
 rip - 120, bgp -20/200, ospf - 110, eigrp -90, stat,def: 1
 
 
@@ -464,5 +464,6 @@ Howt to configure Site 2 site VPN JP to PH:
 https://
 
 TASK6: FUndamentals of Cisco network Security:
+
 
 
