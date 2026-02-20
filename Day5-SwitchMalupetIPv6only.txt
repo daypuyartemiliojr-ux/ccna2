@@ -217,7 +217,7 @@ config t
 	 ip add 10._.100.4 255.255.255.0
 	 description VOICEVLAN
 
-TASK3: THE ULTIMATE SKILL FOR A NETWORK ENGINEER.
+TASK3: THE ULTIMATE SKILL FOR A NETWORK ENGINEER.   (switching = 
 Top 5 brands: PANG MAYAMAN
 1.Cisco = 75% =google,aws,azure,etc,
         Cisco Invented the FirstEthernetSW
@@ -729,6 +729,7 @@ how to get certified:
 2. Lab: NAT and DHCP:
 
 3. ask sa CHAT: "latest reivewer"
+
 
 
 
